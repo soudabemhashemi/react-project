@@ -1,0 +1,57 @@
+.divsbt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #111 ;
+     width: 120px;
+     border-radius: 10px;
+}
+
+@media (max-width:780px){
+  .divsbt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #111 ;
+     width: 102px;
+     border-radius: 10px;
+  }
+}
+
+.sabt{
+    display: flex;
+   font-family: Behnam5;
+  font-weight: 400;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+padding : 7px;
+}
+
+.testbtn {
+    background-color: #3284e9; 
+    padding: 10px !important;
+    border-radius: 10px;
+  }
+.testbtn:hover {
+    color: white !important;
+    background-color: #1f589f;
+}
+
+.textSize{
+  font-size: 1vw;
+}
+
+@media only screen and (max-width: 900px) {
+  .textSize{
+      font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .textSize{
+    font-size: 4vw;
+}
+}
